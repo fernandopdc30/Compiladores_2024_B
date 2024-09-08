@@ -1,0 +1,15 @@
+# Función, si un número es par o impar
+
+doit es_par(numero):
+    irato numero % 2 == 0:
+        resolve tutti
+    etwas:
+        resolve flat
+
+numero = 7
+irato es_par(numero):
+    play(numero)
+    play("El numero es par")
+etwas:
+    play(numero)
+    play("El numero es impar")
