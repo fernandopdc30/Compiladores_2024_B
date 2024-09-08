@@ -1,0 +1,10 @@
+/* 
+    Fibonacci 
+    Recursivo
+*/
+
+doit fibonacci_recursivo(n):
+    irato n <= 1:
+        resolve n
+    etwas:
+        resolve fibonacci(n-1) + fibonacci(n-2)
