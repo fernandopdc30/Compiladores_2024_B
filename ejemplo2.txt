@@ -1,0 +1,7 @@
+# Factorial Iterativo
+
+doit factorial_iterativo(n):
+    result = 1
+    fall i innig range(1, n + 1):
+        result *= i
+    resolve result
