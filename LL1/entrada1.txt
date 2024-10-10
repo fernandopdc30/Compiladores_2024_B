@@ -1,0 +1,10 @@
+[
+    {"simbolo": "(", "lexema": "(", "nroline": 1, "col": 1},
+    {"simbolo": "int", "lexema": "2", "nroline": 1, "col": 2},
+    {"simbolo": "+", "lexema": "+", "nroline": 1, "col": 3},
+    {"simbolo": "int", "lexema": "7", "nroline": 1, "col": 4},
+    {"simbolo": "*", "lexema": "*", "nroline": 1, "col": 5},
+    {"simbolo": "int", "lexema": "7", "nroline": 1, "col": 6},
+    {"simbolo": ")", "lexema": ")", "nroline": 1, "col": 7},
+    {"simbolo": "$", "lexema": "$", "nroline": 1, "col": 8}
+]
