@@ -1,0 +1,6 @@
+[
+    {"simbolo":"int", "lexema":"4", "nroline":2, "col":2},
+    {"simbolo": "+", "lexema": "+", "nroline": 2, "col": 4},
+    {"simbolo": "int", "lexema": "5", "nroline": 2, "col": 6},
+    {"simbolo": "$", "lexema": "$", "nroline": 0, "col": 0}
+]
