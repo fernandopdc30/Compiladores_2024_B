@@ -23,7 +23,7 @@ class NodoArbol:
 tabla = pd.read_csv("tabla.csv", index_col=0)
 
 # Leer el archivo de entrada desde un archivo JSON
-with open("entrada1.txt", "r") as archivo:
+with open("entrada.txt", "r") as archivo:
     entrada = json.load(archivo)  # Convertir el archivo JSON a lista de diccionarios
 
 contador = 0
@@ -83,5 +83,3 @@ if len(pila) == 0:
     print("Análisis sintáctico exitoso")
 else:
     print("Error de sintaxis")
-    
-#  https://onlinegdb.com/j8g5bibF7
