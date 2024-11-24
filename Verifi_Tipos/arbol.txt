@@ -1,0 +1,97 @@
+digraph G {
+3 [style = filled fillcolor= yellow label = <Symbol: FUNC<BR/>Lexeme: 'None'>]
+0 -> 3
+10 [style = filled fillcolor= yellow label = <Symbol: DATO_ENTERO<BR/>Lexeme: 'entero'>]
+9 -> 10
+9 [style = filled fillcolor= white label = <Symbol: TIPO_DATO<BR/>Lexeme: 'None'>]
+6 -> 9
+8 [style = filled fillcolor= yellow label = <Symbol: IDENTIFICADOR<BR/>Lexeme: 'y'>]
+6 -> 8
+12 [style = filled fillcolor= yellow label = <Symbol: IGUALDAD<BR/>Lexeme: '='>]
+7 -> 12
+15 [style = filled fillcolor= yellow label = <Symbol: NUM_ENTERO<BR/>Lexeme: '0'>]
+14 -> 15
+14 [style = filled fillcolor= white label = <Symbol: DATO<BR/>Lexeme: 'None'>]
+11 -> 14
+13 [style = filled fillcolor= yellow label = <Symbol: OP<BR/>Lexeme: 'None'>]
+11 -> 13
+11 [style = filled fillcolor= white label = <Symbol: CALCULADORA<BR/>Lexeme: 'None'>]
+7 -> 11
+7 [style = filled fillcolor= white label = <Symbol: ASG_VARIABLE<BR/>Lexeme: 'None'>]
+6 -> 7
+6 [style = filled fillcolor= white label = <Symbol: DECLARACION<BR/>Lexeme: 'None'>]
+2 -> 6
+5 [style = filled fillcolor= yellow label = <Symbol: P_COMA<BR/>Lexeme: ';'>]
+2 -> 5
+22 [style = filled fillcolor= yellow label = <Symbol: DATO_ENTERO<BR/>Lexeme: 'entero'>]
+21 -> 22
+21 [style = filled fillcolor= white label = <Symbol: TIPO_DATO<BR/>Lexeme: 'None'>]
+18 -> 21
+20 [style = filled fillcolor= yellow label = <Symbol: IDENTIFICADOR<BR/>Lexeme: 'x'>]
+18 -> 20
+24 [style = filled fillcolor= yellow label = <Symbol: IGUALDAD<BR/>Lexeme: '='>]
+19 -> 24
+27 [style = filled fillcolor= yellow label = <Symbol: NUM_ENTERO<BR/>Lexeme: '10'>]
+26 -> 27
+26 [style = filled fillcolor= white label = <Symbol: DATO<BR/>Lexeme: 'None'>]
+23 -> 26
+30 [style = filled fillcolor= yellow label = <Symbol: OP_SUMA<BR/>Lexeme: '+'>]
+25 -> 30
+32 [style = filled fillcolor= yellow label = <Symbol: IDENTIFICADOR<BR/>Lexeme: 'y'>]
+29 -> 32
+31 [style = filled fillcolor= yellow label = <Symbol: LLAMAR_FUNC<BR/>Lexeme: 'None'>]
+29 -> 31
+29 [style = filled fillcolor= white label = <Symbol: DATO<BR/>Lexeme: 'None'>]
+25 -> 29
+35 [style = filled fillcolor= yellow label = <Symbol: OP_MULTIPLICACION<BR/>Lexeme: '*'>]
+28 -> 35
+36 [style = filled fillcolor= yellow label = <Symbol: NUM_DECIMAL<BR/>Lexeme: '0.5'>]
+34 -> 36
+34 [style = filled fillcolor= white label = <Symbol: DATO<BR/>Lexeme: 'None'>]
+28 -> 34
+33 [style = filled fillcolor= yellow label = <Symbol: OP<BR/>Lexeme: 'None'>]
+28 -> 33
+28 [style = filled fillcolor= white label = <Symbol: OP<BR/>Lexeme: 'None'>]
+25 -> 28
+25 [style = filled fillcolor= white label = <Symbol: OP<BR/>Lexeme: 'None'>]
+23 -> 25
+23 [style = filled fillcolor= white label = <Symbol: CALCULADORA<BR/>Lexeme: 'None'>]
+19 -> 23
+19 [style = filled fillcolor= white label = <Symbol: ASG_VARIABLE<BR/>Lexeme: 'None'>]
+18 -> 19
+18 [style = filled fillcolor= white label = <Symbol: DECLARACION<BR/>Lexeme: 'None'>]
+4 -> 18
+17 [style = filled fillcolor= yellow label = <Symbol: P_COMA<BR/>Lexeme: ';'>]
+4 -> 17
+43 [style = filled fillcolor= yellow label = <Symbol: DATO_CARACTER<BR/>Lexeme: 'caracter'>]
+42 -> 43
+42 [style = filled fillcolor= white label = <Symbol: TIPO_DATO<BR/>Lexeme: 'None'>]
+39 -> 42
+41 [style = filled fillcolor= yellow label = <Symbol: IDENTIFICADOR<BR/>Lexeme: 'c'>]
+39 -> 41
+45 [style = filled fillcolor= yellow label = <Symbol: IGUALDAD<BR/>Lexeme: '='>]
+40 -> 45
+48 [style = filled fillcolor= yellow label = <Symbol: CADENA_TEXTO<BR/>Lexeme: '"HOLAS"'>]
+47 -> 48
+47 [style = filled fillcolor= white label = <Symbol: DATO<BR/>Lexeme: 'None'>]
+44 -> 47
+46 [style = filled fillcolor= yellow label = <Symbol: OP<BR/>Lexeme: 'None'>]
+44 -> 46
+44 [style = filled fillcolor= white label = <Symbol: CALCULADORA<BR/>Lexeme: 'None'>]
+40 -> 44
+40 [style = filled fillcolor= white label = <Symbol: ASG_VARIABLE<BR/>Lexeme: 'None'>]
+39 -> 40
+39 [style = filled fillcolor= white label = <Symbol: DECLARACION<BR/>Lexeme: 'None'>]
+16 -> 39
+38 [style = filled fillcolor= yellow label = <Symbol: P_COMA<BR/>Lexeme: ';'>]
+16 -> 38
+37 [style = filled fillcolor= yellow label = <Symbol: SENTENCIA<BR/>Lexeme: 'None'>]
+16 -> 37
+16 [style = filled fillcolor= white label = <Symbol: SENTENCIA<BR/>Lexeme: 'None'>]
+4 -> 16
+4 [style = filled fillcolor= white label = <Symbol: SENTENCIA<BR/>Lexeme: 'None'>]
+2 -> 4
+2 [style = filled fillcolor= white label = <Symbol: SENTENCIA<BR/>Lexeme: 'None'>]
+0 -> 2
+0 [style = filled fillcolor= skyblue label = <Symbol: INICIO<BR/>Lexeme: 'None'>]
+}
