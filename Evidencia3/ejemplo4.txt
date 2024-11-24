@@ -1,5 +1,0 @@
-def suma (int n){
-    return p + 8;
-}
-int x = suma(5);
-int y = x + 5;

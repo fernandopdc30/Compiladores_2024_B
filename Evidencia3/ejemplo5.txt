@@ -1,4 +1,0 @@
-def f1(int x, 
-    int a = x + y;
-    return a;
-}

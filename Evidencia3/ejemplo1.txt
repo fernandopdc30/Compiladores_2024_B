@@ -1,9 +1,0 @@
-def suma(int a, int b) {
-    int resultado = a + b;
-    return resultado;
-}
-
-def resta(int x, int y) {
-    int resultado = x - y;
-    return resultado
-}
