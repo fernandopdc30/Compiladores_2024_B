@@ -1,0 +1,4 @@
+entero y = 0;
+entero x = 10 + y * 0.5;                                 
+caracter c = "HOLAS";              
+
