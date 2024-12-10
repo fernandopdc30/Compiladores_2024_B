@@ -1,0 +1,16 @@
+.data
+var_x: .word 0 
+
+.text
+main:
+
+    li $a0, 3            
+    addi $sp, $sp, -4    
+    sw $a0, 0($sp)       
+    li $a0, 5            
+    lw $t1, 0($sp)       
+    add $a0, $a0, $t1    
+    addi $sp, $sp, 4    
+    la $t1, var_x        
+    sw $a0, 0($t1)       
+    jr $ra               
